@@ -29,7 +29,7 @@ label.grid(column=0,row=0)
 
 
 input = Entry(width=15)
-input.config(text='0')
+input.insert(END,"0")
 input.grid(column=1,row=0)
 
 button = Button(text="Generate",width=30,command=generateRandom)
